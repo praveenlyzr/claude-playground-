@@ -31,7 +31,7 @@ Each slide below has three layers:
 ## Slide 1 — What is an LLM (keep it short)
 
 **🖥️ On the slide**
-> **The LLM: a one-shot genius**
+> **What an LLM actually is**
 > - A model trained to predict the next word — really, really well
 > - **One prompt in → one answer out**
 > - No memory of yesterday. Can't use tools. Can't check its own work.
@@ -50,7 +50,7 @@ Each slide below has three layers:
 ## Slide 2 — What is an Agent
 
 **🖥️ On the slide**
-> **The Agent: built to chase a goal, not answer a prompt**
+> **What turns an LLM into an agent**
 > Wrap the LLM with the 4 things it was missing:
 > - 🧠 **Reasoning & Planning** — breaks a goal into steps
 > - 🛠️ **Tools** — calls APIs, hits real systems, takes action
@@ -74,7 +74,7 @@ Each slide below has three layers:
 ## Slide 3 — The bridge: building one is easy, *trusting* it is hard
 
 **🖥️ On the slide**
-> **The hard part isn't building an agent. It's trusting one.**
+> **The gap between a demo and production**
 > A cool demo is easy. The leap that kills most projects:
 > **the productionization gap** — going from "works on my laptop"
 > to *governed, reliable, and running for real.*
@@ -113,7 +113,7 @@ Each slide below has three layers:
 ## Slide 4b — Studio: how you actually build one
 
 **🖥️ On the slide**
-> **From blank → deployed**
+> **How you build an agent in Studio**
 > 1. **Define** — name it, pick the brain: GPT, Claude, Gemini, Bedrock…
 > 2. **Direct** — set its **Role** + **Instructions** (its personality & job)
 > 3. **Equip** — add **Tools** (to *do* things) + a **Knowledge Base** (to *know* things)
@@ -138,7 +138,7 @@ Each slide below has three layers:
 ## Slide 4c — Studio: what makes a Lyzr agent trustworthy
 
 **🖥️ On the slide**
-> **Reliability is a feature, not an afterthought**
+> **What keeps a Lyzr agent reliable**
 > **Safe AI** → blocks prompt injection · redacts private info (PII) · filters toxic/NSFW · checks for bias
 > **Responsible AI** → **Groundedness** dial (0→1) · stays on-topic · **Reflection** (the agent grades its own answer before replying)
 > **Memory (Cognis)** → short-term + long-term → agents that actually *learn*
@@ -180,7 +180,7 @@ Each slide below has three layers:
 ## Slide 5b — Architect: how you build (Plan → Agents → App)
 
 **🖥️ On the slide**
-> **One prompt. Three phases. A live app.**
+> **How Architect builds an app**
 > 1. **Plan** — Architect acts as your **product manager**: writes the spec, maps the user journey, picks the agents you'll need → *you approve*
 > 2. **Agents** — spins up the agents, gives them tools & knowledge (these are *real Studio agents* under the hood)
 > 3. **App** — generates the **React / Next.js** frontend + auto-builds the **database & login**, wires it all together
@@ -204,7 +204,7 @@ Each slide below has three layers:
 ## Slide 5c — Architect + Studio = the full lifecycle (payoff slide)
 
 **🖥️ On the slide**
-> **Architect builds it. Studio runs it. You own it.**
+> **How Architect and Studio fit together**
 > - **Architect** = speed → a deployed app in minutes
 > - **Studio** = the control room → change prompts, guardrails, knowledge, even the model — *without touching the frontend*
 > - **You own the code** → auto-synced to **your own GitHub**, deploy anywhere
